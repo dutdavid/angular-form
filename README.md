@@ -1,27 +1,38 @@
-# AngularForms
+# Quote-Creator App
+### {This is an application where users can create quotes of their choice and have those quotes voted.},14/1/2019
+### By **{David Dut}**
+## Description
+{This application will enable the user to create a quote, view other quotes written by other people, like and dislike and view the number of likes and dislikes }
+## Setup/Installation Requirements 
+1.On GitHub, navigate to the main page of the repository.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+2.Under the repository name, click Clone or download.
 
-## Development server
+3.In the Clone with HTTPs section, click to copy the clone URL for the repository.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4.Open Terminal.
 
-## Code scaffolding
+5.Change the current working directory to the location where you want the cloned directory to be made.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+6.Type git clone, and then paste the URL you copied in Step 2.
 
-## Build
+7.Press Enter. Your local clone will be created.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## step-by step guide
+* Create a quote 
+* click create
+* click quotes to view uploaded quotes
+## Behavior Driven Development
+| input           |    output            |
+|---------------  |--------------------  |
+| create quote    |  quote is uploaded   |
+| click quotes    |  view uploaded quotes|
+| click delete    |  quote is removed    | 
+| click on like/dislike buttons|upvotes/downvotes quotes|
 
-## Running unit tests
+## Technologies Used
+{Angular7, HTML, CSS, TS}
+## Support and contact details
+{Run the web page once again incase of any errors / send an email: dutdavid7@gmail.com}
+Copyright (c) {2018} **{David Dut}**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
